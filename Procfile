@@ -1,1 +1,2 @@
-web: gunicorn app:app & python3 bot.py
+gunicorn app:app --workers 4
+
